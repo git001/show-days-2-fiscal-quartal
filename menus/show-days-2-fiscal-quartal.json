@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle show-days-2-fiscal-quartal",
+        "command": "show-days-2-fiscal-quartal:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "show-days-2-fiscal-quartal",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "show-days-2-fiscal-quartal:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
